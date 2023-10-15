@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="kor">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Hi, I'm 유환</title>
+  <link rel="stylesheet" href="./reset.css"/>
+  <style>
+    
+      body{
+          background-color: rgb(108, 77, 138);
+          background-image: url(./Image/rain.gif);
+          background-repeat: no-repeat;
+          background-blend-mode: multiply;
+          background-position: center;
+          background-size: cover;
+          height: auto;
+          min-height: 100%;
+          padding-bottom: 70px;
+          white-space: nowrap;
+      }
+
+      main{
+        display: flex;
+        flex-wrap: nowrap;
+      }
+
+      header{
+          height: 200px;
+          text-align: center;
+          color: whitesmoke;
+          background: linear-gradient(to bottom, rgb(155, 49, 255), rgb(168, 0, 168), rgb(179, 0, 255));
+          background-size: cover;
+      }
+
+      #Profile{
+          float: left;
+          background-color: rgb(187, 133, 238);
+          border: 5px solid black;
+          overflow: hidden;
+          width: 50%;
+          position:relative;
+      }
+      
+      #porfile img{
+          position: absolute;
+          width: 100%;
+          height: 100%;
+          object-fit: cover;
+      }
+      #Profile img.img2{
+          display: none;
+      }
+
+      #Profile:hover img.img1{
+          display: none;
+      }
+
+      #Profile:hover img.img2{
+          display: block;
+      }
+
+      #Info{
+          text-align: center;
+          font-size: 20px;
+          font-family: sans-serif;
+          color: whitesmoke;
+      }
+
+      table{
+          border: 3px solid purple;
+          text-align: center;
+          font-size: 0.9em;
+          box-shadow: 0 10px 20px rgba(0,0,0,.25);
+          border-radius: 5px;
+      }
+
+      th{
+          font-weight: bold;
+          background-color: darkviolet;
+          vertical-align: middle;
+      }
+
+      td{
+          padding: 0.5em 0.5em;
+          vertical-align: middle;
+          background-color: rgb(128, 52, 128);
+      }
+    
+      footer{
+          position: fixed;
+          left:0px;
+          bottom: 0px;
+          height: 70px;
+          width: 100%;
+          background-color: rgb(155, 49, 255);
+          background-size: cover;
+          color: whitesmoke;
+          text-align: right;
+          font-family: monospace;
+      }
+      
+  </style>
+  
+</head>
+
+<body>
+    <header>
+        <div style="font-family: Impact;">
+          <b style="font-size: 100px;">J</b>eong. 
+          <b style="font-size: 100px;">Y</b>u  
+          <b style="font-size: 100px;">H</b>wan
+        </div>
+      <nav>
+
+      </nav>
+    </header>
+
+  <main>
+        
+        <article id="Profile">
+          <img class="img1" src="프사.jpg" alt="ProfilePicture" width="100%" />
+          <img class="img2" src="프사2.jfif" width="100%"/>
+        </article>
+
+        <article id="Info">
+          
+          <h2 style="margin-top: 15px;">About Me</h2>
+          <p>
+            <b style="font-size: 60px;">☔"언젠가는 비도 그칠 거야."☔</b>
+          </p>
+
+            <b style="font-size: 30px;">정 유 환</b><br>
+            <br>
+          <b>생년월일 :</b>
+            1992.08.24<br>
+          <b>연락처 :</b> 
+            010-3351-1745<br>
+          <br>
+          <b>주소 :</b>
+            경기 안양시
+          
+          <p>
+            <nav >
+              <h3>Contact</h3>
+              <a href="qwer1745@gmail.com"><img src="./Image/gmail.png" width="58px" height="58px"></a>
+              <a href="https://www.facebook.com/qwer040@hanmail.net"><img src="./Image/facebook.png" width="50px" height="50px"
+                alt="facebookLogo" title="facebook"/></a>
+              <a href="https://www.twitter.com/Clown_YH"><img src="./Image/twitter.png" width="50px" height="50px"
+                alt="twitterLogo" title="twitter"/></a>
+              <a href="https://"><img src="./Image/kakaotalk.png" width="50px" height="50px"
+                alt="kakaoLogo" title="kakaotalk"/></a>
+          </nav>
+          </p>
+
+          <div>
+            <h3>My Skill</h3>
+            <img src="./Image/html.png" width="50px" height="50px" alt="html" title="html"/>
+            <img src="./Image/css.png" width="43px" height="43px" alt="css" title="css"/>
+            <img src="./Image/js.png" width="46px" height="46px" alt="javascript" title="javascript"/>
+          </div>
+
+          <h3>My License</h3>
+          <div>
+            <img src="./Image/word.png" width="48px" height="48px" alt="word" title="word 1급"/>
+            <img src="./Image/exel.png" width="50px" height="50px" alt="exel" title="컴활 2급"/>
+            <img src="./Image/ps.png" width="45px" height="45px" alt="photoshop" title="GTQ photoshop"/>
+            <img src="./Image/ai.png" width="60px" height="60px" alt="illust" title="GTQi illust"/>
+            <img src="./Image/automobile.png" width="50px" height="50px" alt="운전면허보통1종" title="운전면허보통1종"/>
+            <img src="./Image/History.jpg" width="50px" height="50px" alt="한국사능력검정시험2급" title="한국사능력검정시험2급"/>
+          </div>
+
+
+
+
+          <br>
+
+          <div style="text-align: center;">
+            <h3>Graduation</h3>
+            <table align="center">
+              <tr>
+                <th>졸업년도</th>
+                <th>교명</th>
+                <th>구분</th>
+              </tr>
+              <tr>
+                <td>2018</td>
+                <td>한국산업기술대학교 기계공학과</td>
+                <td>졸업</td>
+              </tr>
+              <tr>
+                <td>2011</td>
+                <td>한국산업기술대학교 기계공학과</td>
+                <td>입학</td>
+              </tr>
+              <tr>
+                <td>2011</td>
+                <td>성문고등학교</td>
+                <td>졸업</td>
+              </tr>
+            </table>
+          </div>
+            
+        </article>
+        <br>
+
+  </main>
+  <footer>
+    <div style="float: Left;">
+      <audio controls preload="auto" autoplay loop>
+      <source src="epic-background-orchestral-music-type-hip-hop-beat-legacy-of-vivaldi-143986.mp3">
+      </audio>
+    </div>
+    <p style="font-size: x-large;">
+      <b>Made by Yuhwan, Jeong(&copy;정유환)</b>
+    </p>    
+  </footer>
+</body>
+</html>
